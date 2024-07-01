@@ -7,7 +7,7 @@ eureka:
         defaultZone: 'http://localhost:8761/eureka/'
 saffron:
   datasource:
-    jdbc-url: 'jdbc:mysql://localhost:3306/sfw_inventory_management'
+    url: 'jdbc:mysql://localhost:3306/sfw_inventory_management'
     username: root
     password: Bagee@123
 spring:
